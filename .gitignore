@@ -1,0 +1,49 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Model files and large data
+*.pkl
+*.h5
+*.pt
+*.bin
+*.model
+*.onnx
+*.tflite
+*.npz
+*.npy
+
+# Model directories
+final_sentiment_model/
+best_model/
+optuna_runs/
+
+# Logs and temporary files
+logs/
+temp/
+*.log
+
+# Keep these file types
+!*.py
+!*.ipynb
+!*.md
+!*.txt
+!*.json
+!*.sh
+!*.html
+!*.csv
+!*.env
